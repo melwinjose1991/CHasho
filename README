@@ -13,9 +13,35 @@ You are free to use/modify this as per your requirement.
      |--> src
      |      |-> chasho.h
      |      |-> chasho.c
+     |      |-> com/melwin/chasho
      |
      |-> example
      |        |-> example.c
      |        |-> makefile
 
 
+chasho.h and chasho.c : the header file and the source file.
+example : contains a sample code on how to use CHasho
+com/melwin/chasho : contains a Java implemtation of the hashing function used in CHasho
+                    It shows how the 5Character keys are distributed into hashTable with 64 buckets.
+
+Result when all possible 5-character keys were hashed into table with 16 buckets
+Bucket[0]	3884771
+Bucket[1]	3888063
+Bucket[2]	3891167
+Bucket[3]	3893639
+Bucket[4]	3895132
+Bucket[5]	3895427
+Bucket[6]	3894480
+Bucket[7]	3892435
+Bucket[8]	3889583
+Bucket[9]	3886323
+Bucket[10]	3883140
+Bucket[11]	3880547
+Bucket[12]	3878969
+Bucket[13]	3878653
+Bucket[14]	3879648
+Bucket[15]	3881803
+
+Bucketized Tokens : 62193780
+Generated Tokens  : 62193780
