@@ -2,6 +2,8 @@
 #define HASH_HEADER_H
 
 // Code Ref : https://gist.github.com/tonious/1377667
+// Note : Most the code has been borrowed from the above gist, only
+// 	  the hash function has been modified as per my requirement.
 
 struct entry_s {
 	char *key;

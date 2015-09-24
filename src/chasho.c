@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "hash.h"
+#include "chasho.h"
 
 #define DEBUG_HASH 0
 #define DEBUG_HASH_MSG(msg, ...      )       if(DEBUG_HASH==1)printf(msg,## __VA_ARGS__);

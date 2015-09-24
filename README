@@ -1,0 +1,21 @@
+CHasho : simple hashing in C
+
+Had a requirement to write a hashing library in C with 5 character keys and string as value.
+
+The hashing function is based on Java's HashMap<String, Integer>.
+	Info : http://melwin-jose.blogspot.in/2014/11/internal-working-of-hashmap.html
+
+And rest of the code has been referred from : https://gist.github.com/tonious/1377667
+
+You are free to use/modify this as per your requirement.
+
+-Chasho
+     |--> src
+     |      |-> chasho.h
+     |      |-> chasho.c
+     |
+     |-> example
+     |        |-> example.c
+     |        |-> makefile
+
+
