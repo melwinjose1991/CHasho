@@ -5,7 +5,7 @@ Had a requirement to write a hashing library in C with 5 character keys and stri
 The hashing function is based on Java's HashMap<String, Integer>.
 	Info : http://melwin-jose.blogspot.in/2014/11/internal-working-of-hashmap.html
 
-And rest of the code has been referred from : https://gist.github.com/tonious/1377667
+Code reference : https://gist.github.com/tonious/1377667
 
 You are free to use/modify this as per your requirement.
 
